@@ -1,0 +1,56 @@
+*
+{
+    font-family: 'Muli', sans-serif;
+    color:#eee ;
+}
+body
+{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    background-size: cover;
+    background-position: center;
+    background-color: rgb(60, 60, 160);
+}
+.check-body
+{
+    width: 400px;
+    box-shadow: 0 0 3px 0 rgba(0,0,0,0,3);
+    background:#222222;;
+    padding: 20px;
+    
+    text-align: center;
+   border-radius: 10px;
+   max-width: 600px;
+    margin: 50px auto;
+}
+.check-body h1
+{
+    color: #54aae7;
+    margin-bottom: 30px;
+}
+.logout-btn
+{
+    background: sienna;
+}
+.question
+{
+    position: relative;
+    display: inline-block;
+    padding: 6px 15px;
+    text-decoration: none;
+    background: #072c4b;
+    color: black;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    overflow: hidden;
+    transition: 0.5s;
+    z-index: 1;
+    color: #eee;
+}
+.ans
+{
+    text-align: center;
+    border: 3px solid red;
+    border-radius: 5%;
+}
